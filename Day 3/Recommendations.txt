@@ -1,0 +1,18 @@
+Recommendations to follow:
+
+1. There is no default return type in Java. 
+   In java it is compulsory to specify the return type
+   
+2. Default access specifier: "default". It is not public.
+3. Write methods with return statements.
+4. Do not write any business logic in main().
+5. Objects can be created in any method, not limited to main().
+6. Do not write any business logic without method, it should be 
+   a part of the method.
+   
+7. Method names should have tasks connected with some Nouns
+   Eg. driveCar()
+   
+8. Do not create unnecessary local variables. They are termed as code smells.
+9. Follow camelCase
+10. Constants should be capital
