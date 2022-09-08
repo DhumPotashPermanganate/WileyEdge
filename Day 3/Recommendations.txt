@@ -16,3 +16,37 @@ Recommendations to follow:
 8. Do not create unnecessary local variables. They are termed as code smells.
 9. Follow camelCase
 10. Constants should be capital
+11. variables should be lower case and nouns.
+12. Only one class from entire project contains psvm 
+13. Reference names should come from reference of class name
+14. Always have default constructor and parameterized constructor(wherever possible) class
+15. In parameterized constructor, the arguments should match with the name of instant variables
+16. Every instant variable should be prefix by this keyword
+ 
+ 
+ 
+Identifiers : variable names 
+   should start with letter or underscore
+   no special characters apart from _,$
+   keywords cannot be used as identifier 
+   no white space 
+   
+   
+ 
+Keywords : predefined words having some meaning to compilers
+ 
+ 
+Hands on: 
+if.else
+switch.case
+for loop
+while loop
+do while
+break
+continue
+
+
+Rules for Constructor: 
+1. Name of constructor should match exactly to the name of class 
+2. Constructor should not have any return type. Not even void.
+3. Do not call the constructor explicitly. 
