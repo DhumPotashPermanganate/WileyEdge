@@ -5,7 +5,7 @@ public class DemoClass {
 	static int forloop(int range)
 	{
 		int sum=0;
-		for(int i=1; i<=range; i++)s
+		for(int i=1; i<=range; i++)
 		{
 			sum+= i;
 		}
@@ -62,6 +62,16 @@ public class DemoClass {
 		case 3: System.out.println("Sum of all odd elements using Do-While Loop: "+ dowhileloop(10)); break;
 		default: System.out.println("Wrong Option Entered!");
 		}
+		
+		
+		System.out.println("\nWorking with classes and objects");
+		User obj1 = new User();
+		User obj2 = new User("Arijeet", "Dasgupta");
+		
+		System.out.println("Default: "+obj1.firstName + " " + obj1.lastName);
+		System.out.println("Parameterised: "+obj2.firstName + " " + obj2.lastName);
+		
+		
 		
 	}
 	
